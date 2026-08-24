@@ -2,3 +2,19 @@
     padding:0;
     margin:0;
 }
+
+body{
+    background-color: #9ce9e5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #78c2be;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
