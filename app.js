@@ -1,0 +1,1 @@
+const apiKey = "f3e0b1c7d8f4a5b6c7d8e9f0a1b2c3d4"; // Replace with your OpenWeatherMap API const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
