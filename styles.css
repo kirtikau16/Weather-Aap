@@ -1,125 +1,124 @@
-*{
-    padding:0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    /* background-image:url(img/main-background.jpg);
+body {
+  /* background-image:url(img/main-background.jpg);
     background-size:cover; */
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    /* opacity: 0.5; */
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* opacity: 0.5; */
 }
 
-body::before{
-    content:"";
-    position: absolute;
-    background-image:url(img/main-background.png);
-    background-size:cover;
-    opacity: 0.5;     
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+body::before {
+  content: "";
+  position: absolute;
+  background-image: url(img/main-background.png);
+  background-size: cover;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-
-
-.card{
-    position: relative;
-    border:1px solid black;
-    border-radius: 10px;
-    width: 350px;
-    height: max-content;
-    overflow:hidden;
+.card {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: max-content;
+  overflow: hidden;
 }
 
-.card::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-image: url("img/background.webp");
-    background-size: cover;
-    opacity: 0.2;
-    z-index: -1;
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("img/background.webp");
+  background-size: cover;
+  opacity: 0.2;
+  z-index: -1;
 }
 
-.search{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    gap:10px
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
 }
 
-.search input{
-    padding: 10px;
-    border:0px ;
-    border-radius: 30px;
-    outline: none;
-    flex:1;
+.search input {
+  padding: 10px;
+  border: 0px;
+  border-radius: 30px;
+  outline: none;
+  flex: 1;
 }
 
-.search button{
-    background-color: transparent;
-    border:0px ;
-    border-radius: 5px;
-    cursor: pointer;
+.search button {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-button img{
-    width: 35px;
-    height: 35px;
+button img {
+  width: 35px;
+  height: 35px;
 }
 
-.weather{
-    text-align: center;
-    margin-top: 20px;
+.weather {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.weather img{
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
-    display: block;
+.weather img {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  display: block;
 }
 
-.details{
-    display:flex;
-    justify-content: center;
-    margin-bottom:20px;
+.details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.weather h1{
-    font-size: 80px;
-    font-weight: 500;
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
 }
 
-.weather h2{
-    font-size: 45px;
-    font-weight: 400;
-    margin-top:-10px;
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
 }
 
-.col{
-    display: flex;
-    text-align: left;
-    align-items: center;
-    margin: 0 20px;
+.col {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin: 0 20px;
 }
 
-.col img{
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+.col img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-.humidity, .wind{
-    font-size: 28px;
-    margin-top:-6px;
+.humidity,
+.wind {
+  font-size: 28px;
+  margin-top: -6px;
 }
